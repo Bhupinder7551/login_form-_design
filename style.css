@@ -1,0 +1,81 @@
+body{
+    background-image: linear-gradient(to right, #064180, #78ade6)!important;
+    margin-top: 150px!important;
+    
+}
+.developer{
+    position: absolute;
+    right:0%;
+    bottom:0%;
+    color: #1a609d;
+    
+}
+.register-left{
+    color:white;
+    padding: 30px;
+    text-align: center;
+
+}
+.register-left p{
+    padding: 20px 20px 0;
+
+}
+.register-left .btn-primary{
+    background-color: #021a35;
+    color:white;
+    border-radius: 1.5rem;
+    font-weight: 600;
+    padding:10px;
+    border: none;
+    margin-top: 20px;
+
+
+}
+.register-right{
+    border:none;
+    background: #f8f8f8;
+    border-top-left-radius: 10% 50%;
+    border-bottom-left-radius: 10% 50%;
+    padding:40px 100px
+    }
+    .register-left img{
+        height: 150px;
+        width:140px;
+        animation: y 0.6s infinite alternate;
+
+    }
+
+  
+    .register-right h2{
+        color:black;
+        text-align: center;
+        margin-bottom: 10px;
+    
+    }
+    .register-right .form-group{
+        padding:0px 20px;
+
+    }
+    .register-right .btn-primary{
+        background:#021a35;
+        float:right;
+        margin-top: 20px;
+        border:none;
+        border-radius: 1.5rem;
+        font-weight:600;
+        padding:10px;
+        margin-bottom: 10px;
+    
+    }
+        
+    @keyframes y {
+        
+
+        0%{
+           transform: translateY(0);
+        }   
+         100%{transform: translateY(20px);
+        }
+
+        
+    }
